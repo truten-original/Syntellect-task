@@ -1,0 +1,37 @@
+.controlContainer {
+    display: flex;
+    flex-direction: column;
+    
+}
+.search{
+    display: flex;
+    justify-content: center;
+}
+.icon {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    fill: #91bbf4;
+}
+.setterContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.setterContainer input{
+    background-color: #eee;
+}
+.setterContainer span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #91bbf4;
+    color: #eee;
+}
+.list{
+    list-style: none;
+    padding: 0;
+}

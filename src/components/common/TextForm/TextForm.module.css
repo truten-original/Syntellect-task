@@ -1,0 +1,9 @@
+.textForm {
+    flex-grow: 0.5;
+    border: none;
+    border-bottom: 2px solid rgb(99, 99, 231);
+    outline: none;
+}
+.textForm:focus {
+    border-bottom: 4px solid blue;
+}
